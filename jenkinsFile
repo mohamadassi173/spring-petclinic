@@ -12,10 +12,10 @@ pipeline {
         
         //
         
-        stage("java -jar target/*.jar") {
-            steps {
-                sh "java -jar target/*.jar"
-            }
-        }
+        // stage("testing") {
+        //     steps {
+        //         sh "java -jar target/*.jar"
+        //     }
+        // }
     }
 }
